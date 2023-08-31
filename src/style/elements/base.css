@@ -1,0 +1,13 @@
+html,
+body{
+    font-size: 10px;
+    height: 100%;
+}
+
+body {
+    background-color: var(--pomb-and-power);
+    display: flex;
+    justify-content: center;
+    font-family: "Press Start 2P";
+    padding-top: 30px;
+}

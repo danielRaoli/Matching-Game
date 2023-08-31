@@ -1,0 +1,20 @@
+.stitch-marker{
+    width: 50px;
+    height: 20px;
+    display: flex;
+    gap: 1px;
+    background-color: var(--floral-white);
+    border: 2px solid var(--fiery-rose);
+    box-sizing: border-box;
+    padding: 1px;
+}
+
+.stitch-marker .point{
+    width: 33%;
+    background-color: var(--old-silver);
+}
+
+.stitch-marker[data-point="1"] .point:first-child{
+    background-color: var(--mantis);
+
+}

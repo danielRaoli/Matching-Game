@@ -1,0 +1,12 @@
+.score-board{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2.5rem;
+    gap: .6rem;
+}
+
+.score-board > .player-score:last-child{
+    flex-direction: row-reverse;
+}
+

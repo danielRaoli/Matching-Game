@@ -1,0 +1,12 @@
+.arrow-down{
+    position: absolute;
+    top: 10px;
+    image-rendering: crisp-edges;
+    transform: translateX(90px);
+    transition: 800ms cubic-bezier(.86,-0.12,.2,1.19);
+}
+
+
+.arrow-down[data-player="2"]{
+    transform: translateX(170px);
+}

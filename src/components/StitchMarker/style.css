@@ -18,3 +18,7 @@
     background-color: var(--mantis);
 
 }
+
+.stitch-marker[data-point="2"] .point:nth-child(n+1):nth-child(-n+2){
+    background-color: var(--mantis);
+}

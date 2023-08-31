@@ -11,8 +11,8 @@
     transform: rotateY(180deg);
 }
 
-.card-front-back.-desactive{
-    cursor: default;
+.card-front-back.-hide{
+    display: none;
 }
 
 .card-front-back > .card{
